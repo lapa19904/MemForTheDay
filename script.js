@@ -11,10 +11,15 @@ document.querySelector('.btn').addEventListener('click', function MemForTheDay()
     
    memDOM = document.querySelector('.mem');
     memDOM.style.visibility = 'visible';
-    if(mem <= 25){
-    memDOM.src = 'mem-' + mem + '-min.jpg';
-    } else if (mem > 25){
+    if(memRand.length != 35 && memRand.indexOf(mem)){
+       mem = Math.round(Math.random() * 34) +1;
+        } 
+    if (memRand.length != 35 && mem < 25){
+       memDOM.src = 'mem-' + mem + '-min.jpg';
+    } else if (memRand.length != 35 && mem > 25){
         memDOM.src = 'mem-' + mem + '.gif';
+    } else {
+        memRand = [];
     }
     
     
