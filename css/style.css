@@ -1,0 +1,45 @@
+*{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: #fff;
+    font-family: 'optimusprincepssemiboldRg';
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bonfire-min.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    display: block;
+    margin: auto 350px auto 350px;
+    text-align: center;
+    font-size: 250%;
+}
+span{
+    display: block;
+    margin-top: -10px;
+}
+.mem
+{
+    margin: 5px auto;
+    height: 420px;
+    text-align: center;
+    display:block;
+    visibility: hidden;
+}
+.sun{
+    margin: 5px auto 50px;
+    width: 100%;
+    text-align: center;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
